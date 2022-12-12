@@ -32,7 +32,6 @@
 		B876EA1C29252DA100F60C3C /* NewsVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B876EA1B29252DA100F60C3C /* NewsVC+TableView.swift */; };
 		B876EA1F292532A100F60C3C /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B876EA1E292532A100F60C3C /* UIViewExtensions.swift */; };
 		B87B119529431A7F001146C8 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87B119429431A7F001146C8 /* Style.swift */; };
-		B88269EF292C2DB000BF7CD2 /* HeartButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88269EE292C2DB000BF7CD2 /* HeartButtonExtension.swift */; };
 		B8AFA47F2930CE52009A422D /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AFA47E2930CE52009A422D /* CoreDataManager.swift */; };
 		B8BD7E4429203A27007C748A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BD7E4329203A27007C748A /* AppDelegate.swift */; };
 		B8BD7E4D29203A29007C748A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8BD7E4C29203A29007C748A /* Assets.xcassets */; };
@@ -103,7 +102,6 @@
 		B876EA1E292532A100F60C3C /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		B876EA2029254C9600F60C3C /* libswiftWebKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftWebKit.tbd; path = usr/lib/swift/libswiftWebKit.tbd; sourceTree = SDKROOT; };
 		B87B119429431A7F001146C8 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
-		B88269EE292C2DB000BF7CD2 /* HeartButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartButtonExtension.swift; sourceTree = "<group>"; };
 		B8AFA47E2930CE52009A422D /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		B8BD7E4029203A27007C748A /* BreakingUSNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakingUSNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8BD7E4329203A27007C748A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -178,7 +176,6 @@
 			children = (
 				B876EA1E292532A100F60C3C /* UIViewExtensions.swift */,
 				B82A5C15292584D300D903F6 /* DateExtensions.swift */,
-				B88269EE292C2DB000BF7CD2 /* HeartButtonExtension.swift */,
 				B87B119429431A7F001146C8 /* Style.swift */,
 			);
 			path = "Style+Extensions";
@@ -659,7 +656,6 @@
 				B8BD7E7C29203E46007C748A /* NewsListWorker.swift in Sources */,
 				B8BD7E7E29203E46007C748A /* NewsListModels.swift in Sources */,
 				B8328CFC292D886F007EB403 /* NewsFavoriteListWorker.swift in Sources */,
-				B88269EF292C2DB000BF7CD2 /* HeartButtonExtension.swift in Sources */,
 				B82A5C2F29262DC300D903F6 /* NewsDetailPresenter.swift in Sources */,
 				B8E9BC58293A3D4500807469 /* FavoriteVC+TableView.swift in Sources */,
 				B8BD7E7B29203E46007C748A /* NewsListPresenter.swift in Sources */,
