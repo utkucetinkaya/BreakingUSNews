@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FavoriteCell" rowHeight="169" id="KGk-i7-Jjw" customClass="FavoriteCell" customModule="BreakingUSNews">
+            <rect key="frame" x="0.0" y="0.0" width="346" height="169"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="346" height="169"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OTP-zX-Ru9">
+                        <rect key="frame" x="0.0" y="0.0" width="346" height="167.5"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6lC-6j-085" customClass="ButtonStyle" customModule="BreakingUSNews" customModuleProvider="target">
+                                <rect key="frame" x="310" y="10" width="28" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="qUV-CN-Qqk"/>
+                                    <constraint firstAttribute="width" constant="28" id="wfT-9f-nps"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button" image="delete"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" red="0.30168882299999999" green="0.49692011759999999" blue="0.73493131300000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="deleteButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="6dF-Vk-72Y"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16.34 Tem16.34 Tem" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gDo-fX-nuD">
+                                <rect key="frame" x="34" y="9.5" width="125" height="15"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="15"/>
+                                <color key="textColor" systemColor="systemGray2Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xxq-HE-tPu">
+                                <rect key="frame" x="128" y="44" width="208" height="93.5"/>
+                                <string key="text">Label Label LabelLabel Label LabelLabel Label LabelLabel Label LabelLabel Label LabelLabel Label LabelLabel Label LabelLabel Label </string>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="16"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New York Times" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gqs-bo-H1F">
+                                <rect key="frame" x="190" y="141" width="141" height="16.5"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="14"/>
+                                <color key="textColor" red="0.33725490200000002" green="0.55303442479999998" blue="0.82022386790000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="us.news" translatesAutoresizingMaskIntoConstraints="NO" id="ZWj-zv-p6b">
+                                <rect key="frame" x="8" y="31.5" width="110" height="115"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="Am4-1x-gCx"/>
+                                    <constraint firstAttribute="height" constant="115" id="vte-xX-kj7"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="date-and-time-icon" translatesAutoresizingMaskIntoConstraints="NO" id="gmn-bt-NBB">
+                                <rect key="frame" x="5" y="7" width="28" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="Nbx-Zp-fqV"/>
+                                    <constraint firstAttribute="width" constant="28" id="T7y-Tk-fDa"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="xxq-HE-tPu" secondAttribute="trailing" constant="10" id="4B1-1U-8AZ"/>
+                            <constraint firstItem="ZWj-zv-p6b" firstAttribute="top" secondItem="gDo-fX-nuD" secondAttribute="bottom" constant="7" id="6ih-ug-pU9"/>
+                            <constraint firstItem="xxq-HE-tPu" firstAttribute="top" secondItem="OTP-zX-Ru9" secondAttribute="top" constant="44" id="8lV-dB-q0U"/>
+                            <constraint firstItem="gmn-bt-NBB" firstAttribute="top" secondItem="OTP-zX-Ru9" secondAttribute="top" constant="7" id="93g-Uy-jve"/>
+                            <constraint firstItem="gmn-bt-NBB" firstAttribute="centerY" secondItem="gDo-fX-nuD" secondAttribute="centerY" id="FhZ-zK-Sfo"/>
+                            <constraint firstItem="Gqs-bo-H1F" firstAttribute="leading" secondItem="OTP-zX-Ru9" secondAttribute="leading" constant="190" id="IQ0-XM-qIJ"/>
+                            <constraint firstItem="ZWj-zv-p6b" firstAttribute="leading" secondItem="OTP-zX-Ru9" secondAttribute="leading" constant="8" id="PUO-j0-bEC"/>
+                            <constraint firstItem="6lC-6j-085" firstAttribute="top" secondItem="OTP-zX-Ru9" secondAttribute="top" constant="10" id="RLw-Fm-OE3"/>
+                            <constraint firstItem="gDo-fX-nuD" firstAttribute="top" secondItem="OTP-zX-Ru9" secondAttribute="top" constant="9.5" id="X22-6S-YXj"/>
+                            <constraint firstItem="xxq-HE-tPu" firstAttribute="leading" secondItem="ZWj-zv-p6b" secondAttribute="trailing" constant="10" id="ZdP-rd-Yf1"/>
+                            <constraint firstAttribute="trailing" secondItem="6lC-6j-085" secondAttribute="trailing" constant="8" id="cBK-Uh-Cxj"/>
+                            <constraint firstItem="gmn-bt-NBB" firstAttribute="leading" secondItem="OTP-zX-Ru9" secondAttribute="leading" constant="5" id="cM6-B3-yG2"/>
+                            <constraint firstAttribute="bottom" secondItem="ZWj-zv-p6b" secondAttribute="bottom" constant="21" id="db2-92-NGs"/>
+                            <constraint firstItem="xxq-HE-tPu" firstAttribute="leading" secondItem="ZWj-zv-p6b" secondAttribute="trailing" constant="10" id="fpk-HV-THX"/>
+                            <constraint firstAttribute="trailing" secondItem="Gqs-bo-H1F" secondAttribute="trailing" constant="15" id="jas-n1-pgM"/>
+                            <constraint firstAttribute="bottom" secondItem="Gqs-bo-H1F" secondAttribute="bottom" constant="10" id="nyJ-vE-kzV"/>
+                            <constraint firstAttribute="bottom" secondItem="xxq-HE-tPu" secondAttribute="bottom" constant="30" id="o2V-os-gnG"/>
+                            <constraint firstItem="gDo-fX-nuD" firstAttribute="leading" secondItem="gmn-bt-NBB" secondAttribute="trailing" constant="1" id="zOk-3n-vki"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="OTP-zX-Ru9" secondAttribute="trailing" id="XZd-EW-Qz2"/>
+                    <constraint firstAttribute="bottom" secondItem="OTP-zX-Ru9" secondAttribute="bottom" id="cPb-yZ-7Ad"/>
+                    <constraint firstItem="OTP-zX-Ru9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="lvL-0X-sJc"/>
+                    <constraint firstItem="OTP-zX-Ru9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="q4A-ul-hHq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="backView" destination="OTP-zX-Ru9" id="lkX-zj-UZm"/>
+                <outlet property="favDateLabel" destination="gDo-fX-nuD" id="ruz-3T-zTa"/>
+                <outlet property="favImageView" destination="ZWj-zv-p6b" id="68A-GR-syw"/>
+                <outlet property="favSourceNameLabel" destination="Gqs-bo-H1F" id="zYR-N6-o3s"/>
+                <outlet property="favTitleLabel" destination="xxq-HE-tPu" id="Rui-MD-4xb"/>
+            </connections>
+            <point key="canvasLocation" x="143.47826086956522" y="64.620535714285708"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="date-and-time-icon" width="122.87999725341797" height="119.97000122070312"/>
+        <image name="delete" width="200" height="161"/>
+        <image name="us.news" width="600" height="400"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

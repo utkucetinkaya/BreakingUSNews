@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--News Detail View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="NewsDetailViewController" id="Y6W-OH-hqX" customClass="NewsDetailViewController" customModule="BreakingUSNews" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M9F-q3-K8w">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5cN-Y4-4gZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="870"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nss-BU-tb6" customClass="ViewStyle" customModule="BreakingUSNews" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="25" width="414" height="845"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Xi Jinping, Kamala Harris and other Asia-Pacific leaders convene in Bangkok for economic forum - CNBC" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfx-ID-jbr">
+                                                        <rect key="frame" x="10" y="10" width="394" height="111.5"/>
+                                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="23"/>
+                                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lV9-FQ-7mb" customClass="ButtonStyle" customModule="BreakingUSNews" customModuleProvider="target">
+                                                        <rect key="frame" x="10" y="480.5" width="156.5" height="37"/>
+                                                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="newspaper" catalog="system">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="Read More">
+                                                                    <attributes>
+                                                                        <font key="NSFont" size="12" name="ChalkboardSE-Bold"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <buttonConfiguration key="configuration" style="gray" image="newspaper" catalog="system">
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="Open Website">
+                                                                    <attributes>
+                                                                        <color key="NSColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <font key="NSFont" size="16" name="ChalkboardSE-Bold"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </buttonConfiguration>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                <real key="value" value="2"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                <color key="value" red="0.33725490200000002" green="0.55294117649999996" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="7"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                                <color key="value" red="0.33725490200000002" green="0.55294117649999996" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                                <real key="value" value="7"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="webKitButtonClicked:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="rza-E5-gD0"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="titleLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f55-yJ-exR">
+                                                        <rect key="frame" x="10" y="396.5" width="324" height="20"/>
+                                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ContentLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZnV-zJ-PLT">
+                                                        <rect key="frame" x="10" y="426.5" width="374" height="19"/>
+                                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sOQ-yq-QuS" customClass="ButtonStyle" customModule="BreakingUSNews" customModuleProvider="target">
+                                                        <rect key="frame" x="242.5" y="480.5" width="161.5" height="37"/>
+                                                        <buttonConfiguration key="configuration" style="gray" imagePadding="1">
+                                                            <imageReference key="image" image="heart.fill" catalog="system" renderingMode="hierarchical-single">
+                                                                <hierarchicalColors>
+                                                                    <color systemColor="systemRedColor"/>
+                                                                    <color systemColor="secondaryLabelColor"/>
+                                                                    <color systemColor="tertiaryLabelColor"/>
+                                                                </hierarchicalColors>
+                                                            </imageReference>
+                                                            <backgroundConfiguration key="background" cornerRadius="0.0"/>
+                                                            <attributedString key="attributedTitle">
+                                                                <fragment content="Favourites List">
+                                                                    <attributes>
+                                                                        <color key="NSColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <font key="NSFont" size="16" name="ChalkboardSE-Bold"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </buttonConfiguration>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                <color key="value" systemColor="systemRedColor"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="7"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                                <color key="value" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                                <real key="value" value="1"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                <real key="value" value="2"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="didTapFavoriteListButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="3sc-zx-Apg"/>
+                                                        </connections>
+                                                    </button>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="T9Q-s8-aru">
+                                                        <rect key="frame" x="0.0" y="151.5" width="414" height="220"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="414" id="MMq-lU-VTd"/>
+                                                            <constraint firstAttribute="height" constant="220" id="d2m-Fl-Oki"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="f55-yJ-exR" firstAttribute="leading" secondItem="Nss-BU-tb6" secondAttribute="leading" constant="10" id="6uR-FP-tLe"/>
+                                                    <constraint firstAttribute="trailing" secondItem="f55-yJ-exR" secondAttribute="trailing" constant="80" id="BIS-Xz-Tp8"/>
+                                                    <constraint firstItem="f55-yJ-exR" firstAttribute="top" secondItem="T9Q-s8-aru" secondAttribute="bottom" constant="25" id="EWn-Ie-MWO"/>
+                                                    <constraint firstItem="lV9-FQ-7mb" firstAttribute="leading" secondItem="Nss-BU-tb6" secondAttribute="leading" constant="10" id="HY6-4u-Dxj"/>
+                                                    <constraint firstItem="rfx-ID-jbr" firstAttribute="top" secondItem="Nss-BU-tb6" secondAttribute="top" constant="10" id="J3H-h2-Wkg"/>
+                                                    <constraint firstItem="ZnV-zJ-PLT" firstAttribute="top" secondItem="f55-yJ-exR" secondAttribute="bottom" constant="10" id="K8F-rJ-7dp"/>
+                                                    <constraint firstItem="sOQ-yq-QuS" firstAttribute="top" secondItem="ZnV-zJ-PLT" secondAttribute="bottom" constant="35" id="NnZ-Vb-Pi0"/>
+                                                    <constraint firstItem="lV9-FQ-7mb" firstAttribute="top" secondItem="ZnV-zJ-PLT" secondAttribute="bottom" constant="35" id="Sct-Ew-ylK"/>
+                                                    <constraint firstAttribute="trailing" secondItem="rfx-ID-jbr" secondAttribute="trailing" constant="10" id="Ujz-7N-gYi"/>
+                                                    <constraint firstAttribute="trailing" secondItem="ZnV-zJ-PLT" secondAttribute="trailing" constant="30" id="c2F-E9-M2K"/>
+                                                    <constraint firstItem="rfx-ID-jbr" firstAttribute="leading" secondItem="Nss-BU-tb6" secondAttribute="leading" constant="10" id="diT-lK-zlA"/>
+                                                    <constraint firstItem="T9Q-s8-aru" firstAttribute="leading" secondItem="Nss-BU-tb6" secondAttribute="leading" id="fSu-VG-fT4"/>
+                                                    <constraint firstAttribute="trailing" secondItem="sOQ-yq-QuS" secondAttribute="trailing" constant="10" id="ifM-NH-Enq"/>
+                                                    <constraint firstAttribute="trailing" secondItem="T9Q-s8-aru" secondAttribute="trailing" id="jY6-fc-z7x"/>
+                                                    <constraint firstItem="ZnV-zJ-PLT" firstAttribute="leading" secondItem="Nss-BU-tb6" secondAttribute="leading" constant="10" id="mC6-WH-RaH"/>
+                                                    <constraint firstItem="T9Q-s8-aru" firstAttribute="top" secondItem="rfx-ID-jbr" secondAttribute="bottom" constant="30" id="pQq-bE-jvm"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" systemColor="systemGrayColor"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="30"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CNBC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZOW-zO-Z1M">
+                                                <rect key="frame" x="15" y="0.0" width="379" height="26"/>
+                                                <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="26"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemGray3Color"/>
+                                        <constraints>
+                                            <constraint firstItem="ZOW-zO-Z1M" firstAttribute="leading" secondItem="5cN-Y4-4gZ" secondAttribute="leading" constant="15" id="D7G-bq-cVa"/>
+                                            <constraint firstItem="Nss-BU-tb6" firstAttribute="leading" secondItem="5cN-Y4-4gZ" secondAttribute="leading" id="Hfr-sm-Og2"/>
+                                            <constraint firstItem="Nss-BU-tb6" firstAttribute="top" secondItem="5cN-Y4-4gZ" secondAttribute="top" constant="25" id="N4r-oO-xO2"/>
+                                            <constraint firstAttribute="height" constant="870" id="SMd-rf-jVP"/>
+                                            <constraint firstAttribute="trailing" secondItem="ZOW-zO-Z1M" secondAttribute="trailing" constant="20" id="V4D-DY-F3k"/>
+                                            <constraint firstAttribute="trailing" secondItem="Nss-BU-tb6" secondAttribute="trailing" id="n8v-iU-Hgq"/>
+                                            <constraint firstAttribute="bottom" secondItem="Nss-BU-tb6" secondAttribute="bottom" id="rUf-XF-cS9"/>
+                                            <constraint firstItem="ZOW-zO-Z1M" firstAttribute="top" secondItem="5cN-Y4-4gZ" secondAttribute="top" id="z35-kf-mdK"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="5cN-Y4-4gZ" firstAttribute="width" secondItem="aM8-Vf-r1Y" secondAttribute="width" id="HdH-wG-1OJ"/>
+                                    <constraint firstItem="5cN-Y4-4gZ" firstAttribute="trailing" secondItem="r7p-Ce-bfx" secondAttribute="trailing" id="K7L-88-Vmb"/>
+                                    <constraint firstItem="5cN-Y4-4gZ" firstAttribute="bottom" secondItem="r7p-Ce-bfx" secondAttribute="bottom" id="aeB-P7-Efi"/>
+                                    <constraint firstItem="5cN-Y4-4gZ" firstAttribute="top" secondItem="r7p-Ce-bfx" secondAttribute="top" id="mUf-LQ-BC5"/>
+                                    <constraint firstItem="5cN-Y4-4gZ" firstAttribute="height" secondItem="r7p-Ce-bfx" secondAttribute="height" id="wsz-ML-RZs"/>
+                                    <constraint firstItem="5cN-Y4-4gZ" firstAttribute="leading" secondItem="r7p-Ce-bfx" secondAttribute="leading" id="wtA-Vh-grj"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="r7p-Ce-bfx"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="aM8-Vf-r1Y"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemGray3Color"/>
+                        <constraints>
+                            <constraint firstItem="M9F-q3-K8w" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="8bD-B9-WWm"/>
+                            <constraint firstItem="M9F-q3-K8w" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="GkM-Bu-GFp"/>
+                            <constraint firstItem="M9F-q3-K8w" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="O3V-GG-toC"/>
+                            <constraint firstItem="M9F-q3-K8w" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="drX-Vb-2Sd"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="backView" destination="Nss-BU-tb6" id="UT6-IS-2sj"/>
+                        <outlet property="contentLabel" destination="ZnV-zJ-PLT" id="NRL-Yv-Xoe"/>
+                        <outlet property="descLabel" destination="rfx-ID-jbr" id="Ni8-a0-era"/>
+                        <outlet property="imageDetail" destination="T9Q-s8-aru" id="w02-RF-QoN"/>
+                        <outlet property="sourceNameLabel" destination="ZOW-zO-Z1M" id="X01-Fb-tTk"/>
+                        <outlet property="titleLabel" destination="f55-yJ-exR" id="6uW-gh-Wfh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="128.98550724637681" y="-34.821428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="heart.fill" catalog="system" width="128" height="107"/>
+        <image name="newspaper" catalog="system" width="128" height="111"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
