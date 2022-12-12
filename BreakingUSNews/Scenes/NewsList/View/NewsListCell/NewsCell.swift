@@ -11,7 +11,7 @@ import FirebaseAnalytics
 
 protocol NewsCellDelegate {
     func didTapFavoriteButton(model: NewsList.Fetch.ViewModel.News?)
-
+    func toastMessage()
 }
 class NewsCell: UITableViewCell {
 
@@ -21,7 +21,7 @@ class NewsCell: UITableViewCell {
             "NewsCell"
         }
     }
-    
+
     static func register() -> UINib {
         UINib(nibName: "NewsCell", bundle: nil)
     }
@@ -37,7 +37,6 @@ class NewsCell: UITableViewCell {
     var articles: NewsList.Fetch.ViewModel.News?
     var delegate : NewsCellDelegate?
   
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         
@@ -61,6 +60,7 @@ class NewsCell: UITableViewCell {
         pulsate()
         configureUIButton()
         analytics()
+        delegate?.toastMessage()
     }
 
     func analytics() {

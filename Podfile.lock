@@ -83,12 +83,14 @@ PODS:
   - SDWebImage (5.14.1):
     - SDWebImage/Core (= 5.14.1)
   - SDWebImage/Core (5.14.1)
+  - ToastPresenter (0.1.0)
 
 DEPENDENCIES:
   - Alamofire
   - FirebaseAnalytics
   - RxCocoa (= 5.1.1)
   - SDWebImage (~> 5.0)
+  - ToastPresenter
 
 SPEC REPOS:
   trunk:
@@ -105,6 +107,7 @@ SPEC REPOS:
     - RxRelay
     - RxSwift
     - SDWebImage
+    - ToastPresenter
 
 SPEC CHECKSUMS:
   Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
@@ -120,7 +123,8 @@ SPEC CHECKSUMS:
   RxRelay: 5a18c2eb2d68326ebaf0112f80d837ae41b92b97
   RxSwift: 915abbdfb62214aa89ccd0b194d44fb478019b27
   SDWebImage: e1b3c38f170c6100130fce6856e423ed9e5f4fce
+  ToastPresenter: c48a0e9073e73554e2a9869d2e697345cf06c0f4
 
-PODFILE CHECKSUM: 8b45d3dbb283bd1ddc411b65af6a2dbd06ecb321
+PODFILE CHECKSUM: c921ce9fdb04e83943078b407646db5e77e08455
 
 COCOAPODS: 1.11.3

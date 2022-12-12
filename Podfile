@@ -10,7 +10,7 @@ pod 'Alamofire'
 pod 'SDWebImage', '~> 5.0'
 pod 'RxCocoa', '5.1.1'
 pod 'FirebaseAnalytics'
-
+pod 'ToastPresenter'
 
   target 'BreakingUSNewsTests' do
     inherit! :search_paths

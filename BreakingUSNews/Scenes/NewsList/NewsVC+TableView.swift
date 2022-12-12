@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import ToastPresenter
 
 extension NewsListViewController: UITableViewDelegate, UITableViewDataSource {
 
@@ -60,7 +61,6 @@ extension NewsListViewController: UITableViewDelegate, UITableViewDataSource {
 }
 
 extension NewsListViewController: NewsCellDelegate {
-    
 
     func didTapFavoriteButton(model: NewsList.Fetch.ViewModel.News?) {
         
@@ -68,7 +68,7 @@ extension NewsListViewController: NewsCellDelegate {
             CoreDataManager.shared.favoriteNewsList(model: article) { result in
                 switch result {
                 case.success():
-//                    NotificationCenter.default.post(name: NSNotification.Name("Added to Favorite List" ), object: nil)
+                    NotificationCenter.default.post(name: NSNotification.Name("Added to Favorite List" ), object: nil)
                     print("success")
                     
                 case.failure(let error):
@@ -76,6 +76,14 @@ extension NewsListViewController: NewsCellDelegate {
                 }
             }
         }
+    }
+    
+    func toastMessage() {
+        ToastView(message: "Saved to favorites!", font: .preferredFont(forTextStyle: .callout))
+            .setImage(UIImage(named: "tick"))
+            .setTextColor(.black)
+            .setBackgroundColor(.systemGreen, alpha: 0.5)
+            .show(in: view, position: .top(constant: 10), holdingTime: 2, fadeAnimationDuration: 1)
     }
 }
 
