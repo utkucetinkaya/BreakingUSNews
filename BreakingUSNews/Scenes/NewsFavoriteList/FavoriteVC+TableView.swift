@@ -47,9 +47,25 @@ extension NewsFavoriteListViewController: UITableViewDelegate, UITableViewDataSo
         router?.routeToDetailNews(index: indexPath.row)
 
     }
+    @objc func showMiracle() {
+        let slideVC = OverlayView()
+        slideVC.modalPresentationStyle = .custom
+        slideVC.transitioningDelegate = self
+        self.present(slideVC, animated: true, completion: nil)
+    }
+}
+
+extension NewsFavoriteListViewController: UIViewControllerTransitioningDelegate {
+    func presentationController(forPresented presented: UIViewController, presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
+        PresentationController(presentedViewController: presented, presenting: presenting)
+    }
 }
 
 extension NewsFavoriteListViewController: FavoriteCellDelegate {
+    func overlayViewOpen() {
+        showMiracle()
+    }
+    
     
     func didTapDeleteButton(model: FavoriteNews.Fetch.ViewModel.Favorites?) {
         

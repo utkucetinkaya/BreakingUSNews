@@ -10,6 +10,7 @@ import SDWebImage
 
 protocol FavoriteCellDelegate {
     func didTapDeleteButton(model: FavoriteNews.Fetch.ViewModel.Favorites?)
+    func overlayViewOpen()
 }
 
 class FavoriteCell: UITableViewCell {
@@ -49,7 +50,7 @@ class FavoriteCell: UITableViewCell {
     }
     
     @IBAction func deleteButton(_ sender: UIButton) {
-        
+        delegate?.overlayViewOpen()
         
     }
     
