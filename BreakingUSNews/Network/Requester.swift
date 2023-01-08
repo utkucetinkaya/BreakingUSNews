@@ -22,13 +22,14 @@ protocol ProviderProtocol {
 
 class Requester: ProviderProtocol {
 
-    private lazy var baseUrl = "https://newsapi.org/v2/top-headlines"
+    private lazy var baseUrl = "https://newsapi.org"
+    private lazy var apiKey = "b4bf5e9ea49a49a4807f83438cd8e006"
 
     func request<T: Decodable>(model: T.Type,
                                parameters: [String: String] = [:],
                                completion: @escaping (NetworkResponse<T>) -> Void) {
         var queryParams = parameters
-        queryParams["?country=us&apiKey"] = "b4bf5e9ea49a49a4807f83438cd8e006"
+        queryParams["/v2/top-headlines?country=us&apiKey"] = apiKey
         let urlString = prepareUrl(params: queryParams)
     AF.request(urlString, method: .get).responseData { data in
             switch data.result {

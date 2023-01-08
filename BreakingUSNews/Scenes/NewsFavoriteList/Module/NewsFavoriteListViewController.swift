@@ -19,14 +19,13 @@ protocol NewsFavoriteListDisplayLogic: AnyObject {
                                             
 class NewsFavoriteListViewController: UIViewController {
     
-    var favoriteItem: [FavoriteItem] = [FavoriteItem]()
     var viewModel: FavoriteNews.Fetch.ViewModel?
     var interactor: GetFavoriteListInteracting?
     var router: (NewsFavoriteListRoutingLogic & NewsFavoriteListDataPassing)?
-
+    
     @IBOutlet weak var favoriteTableView: UITableView!
     
-    // MARK: Object lifecycle
+    // MARK: - Object lifecycle
   
   override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?)
 {
@@ -40,7 +39,7 @@ class NewsFavoriteListViewController: UIViewController {
     setup()
   }
   
-  // MARK: Setup
+  // MARK: - Setup
   
   private func setup() {
     let viewController = self
@@ -55,7 +54,7 @@ class NewsFavoriteListViewController: UIViewController {
     router.dataStore = interactor
   }
 
-  // MARK: View lifecycle
+  // MARK: - View lifecycle
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -63,10 +62,11 @@ class NewsFavoriteListViewController: UIViewController {
       interactor?.fetchFavorites(request: FavoriteNews.Fetch.Request.init())
       setupFavoriteTableView()
       self.title = "Favorites"
-//      NotificationCenter.default.addObserver(forName: NSNotification.Name("Added to Favorite List"), object: nil, queue: nil) { _ in
-//          self.interactor?.fetchFavorites(request: FavoriteNews.Fetch.Request.init())
-//      }
   }
+    
+    @IBAction func didTapRouteToNewsList(_ sender: Any) {
+        router?.routeToNewsList()
+    }
 }
 
 extension NewsFavoriteListViewController: NewsFavoriteListDisplayLogic {

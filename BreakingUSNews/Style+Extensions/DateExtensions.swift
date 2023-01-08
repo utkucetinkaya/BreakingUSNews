@@ -23,13 +23,11 @@ extension Date {
     }
 }
 
-
     func formattedDate(dateStr:String) -> Date {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy'-'MM'-'dd'T'HH':'mm':'ssZZZ"
         let date = dateFormatter.date(from: dateStr)
         return date ?? NSDate.now
-        
     }
     
     func getPastTime(for date : Date) -> String {
@@ -78,5 +76,3 @@ extension Date {
             return strDate
         }
     }
-
-

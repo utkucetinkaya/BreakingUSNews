@@ -37,7 +37,6 @@ class ViewStyle: UIView {
     }
 }
 
-
 // MARK: - Button Properties
 
 class ButtonStyle: UIButton {

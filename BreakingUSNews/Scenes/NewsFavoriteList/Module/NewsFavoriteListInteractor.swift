@@ -16,11 +16,11 @@ protocol GetFavoriteListInteracting: AnyObject {
     func fetchFavorites(request: FavoriteNews.Fetch.Request)
 }
 protocol FavoriteListDataStore: AnyObject {
-    var favorites: [FavoriteNews.Fetch.ViewModel.Favorites]? { get set}
+    var favorites: [FavoriteItem]? { get set}
 }
 
 class NewsFavoriteListInteractor: GetFavoriteListInteracting, FavoriteListDataStore {
-    var favorites: [FavoriteNews.Fetch.ViewModel.Favorites]?
+    var favorites: [FavoriteItem]?
     
     
     var presenter: FavoriteNewsPresentationLogic?
@@ -36,17 +36,7 @@ class NewsFavoriteListInteractor: GetFavoriteListInteracting, FavoriteListDataSt
             switch result {
             case.success(let fav):
                 var favorites: [FavoriteNews.Fetch.ViewModel.Favorites] = []
-                    fav.forEach {
-                        if $0.title != nil {
-                            favorites.append(FavoriteNews.Fetch.ViewModel.Favorites(title: $0.title,
-                                           urlToImage: $0.urlToImage,
-                                           publishedAt: $0.publishedAt,
-                                            name: $0.name,
-                                            content: $0.content,
-                                           description: $0.desc))
-                        }
-                    }
-                self.favorites = favorites
+                self.favorites = fav
                 self.presenter?.presentFavoriteNews(response: FavoriteNews.Fetch.Response(favorites: fav))
             case .failure(let error):
                 self.presenter?.presentAler(error: error)

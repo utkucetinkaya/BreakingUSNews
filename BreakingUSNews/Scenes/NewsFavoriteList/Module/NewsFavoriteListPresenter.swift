@@ -24,18 +24,8 @@ final class NewsFavoriteListPresenter: FavoriteNewsPresentationLogic  {
     func presentFavoriteNews(response: FavoriteNews.Fetch.Response) {
 
         var favorites: [FavoriteNews.Fetch.ViewModel.Favorites] = []
-            response.favorites.forEach {
-                if $0.title != nil {
-                    favorites.append(FavoriteNews.Fetch.ViewModel.Favorites(title: $0.title,
-                                   urlToImage: $0.urlToImage,
-                                   publishedAt: $0.publishedAt,
-                                   name: $0.name,
-                                   content: $0.content,
-                                    description: $0.desc))
-                }
-            }
-        
-        viewController?.displayFavoriteNews(viewModel: FavoriteNews.Fetch.ViewModel(favorites: favorites))
+
+        viewController?.displayFavoriteNews(viewModel: FavoriteNews.Fetch.ViewModel(favorites: response.favorites))
     }
     
     func presentAler(error: Error) {

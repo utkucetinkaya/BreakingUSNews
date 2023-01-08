@@ -15,10 +15,12 @@ import UIKit
 protocol FavoriteNewsWorkingLogic: AnyObject {
 
     func fetchFavoriteNews(completion: @escaping ((Result<[FavoriteItem], Error>) -> Void))
+
 }
 
 final class NewsFavoriteListWorker: FavoriteNewsWorkingLogic {
-     
+
+
     func fetchFavoriteNews(completion: @escaping ((Result<[FavoriteItem], Error>) -> Void)) {
         
         CoreDataManager.shared.fetchingFavoritesFromDataBase { result in

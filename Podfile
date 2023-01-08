@@ -8,9 +8,10 @@ target 'BreakingUSNews' do
   # Pods for BreakingUSNews
 pod 'Alamofire'
 pod 'SDWebImage', '~> 5.0'
-pod 'RxCocoa', '5.1.1'
+pod 'RxCocoa', '6.5.0'
 pod 'FirebaseAnalytics'
 pod 'ToastPresenter'
+
 
   target 'BreakingUSNewsTests' do
     inherit! :search_paths

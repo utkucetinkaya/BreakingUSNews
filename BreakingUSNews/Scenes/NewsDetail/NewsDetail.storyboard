@@ -135,7 +135,7 @@
                                                             <action selector="didTapFavoriteListButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="3sc-zx-Apg"/>
                                                         </connections>
                                                     </button>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="T9Q-s8-aru">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="T9Q-s8-aru">
                                                         <rect key="frame" x="0.0" y="151.5" width="414" height="220"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="414" id="MMq-lU-VTd"/>
@@ -223,6 +223,7 @@
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <size key="freeformSize" width="414" height="896"/>
                     <connections>
                         <outlet property="backView" destination="Nss-BU-tb6" id="UT6-IS-2sj"/>
                         <outlet property="contentLabel" destination="ZnV-zJ-PLT" id="NRL-Yv-Xoe"/>

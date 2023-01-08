@@ -34,7 +34,8 @@ enum NewsList {
             let name: String?
             let content: String?
             let description: String?
-            let url: String? = nil
+            let url: String?
+            var isFavorited: Bool = false
       }
     }
   }

@@ -12,7 +12,6 @@
 
 import UIKit
 
-
   enum FavoriteNews {
       enum Fetch {
         
@@ -25,7 +24,7 @@ import UIKit
         }
         
         struct ViewModel {
-            var favorites: [FavoriteNews.Fetch.ViewModel.Favorites]
+            var favorites: [FavoriteItem]
             
             struct Favorites {
                 let title: String?
@@ -34,8 +33,8 @@ import UIKit
                 let name: String?
                 let content: String?
                 let description: String?
+                var url: String?
         }
       }
     }
   }
-

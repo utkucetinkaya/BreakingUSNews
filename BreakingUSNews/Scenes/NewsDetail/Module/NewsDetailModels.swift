@@ -21,7 +21,6 @@ enum NewsDetail {
       
     struct Response {
         var articles: Article
-        
     }
     struct ViewModel {
 
@@ -31,7 +30,7 @@ enum NewsDetail {
         let name: String?
         let content: String?
         let description: String?
-        var url: String? = nil
+        var url: String?
     }
   }
 }
