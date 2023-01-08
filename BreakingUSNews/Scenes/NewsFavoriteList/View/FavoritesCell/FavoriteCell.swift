@@ -33,7 +33,7 @@ class FavoriteCell: UITableViewCell {
     
     var favorites: FavoriteNews.Fetch.ViewModel.Favorites?
     var delegate: FavoriteCellDelegate?
-    
+    var selection: (() -> ())?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -50,11 +50,10 @@ class FavoriteCell: UITableViewCell {
     }
     
     @IBAction func deleteButton(_ sender: UIButton) {
-        delegate?.overlayViewOpen()
-        
+        selection?()
     }
     
-    func configureFavorite(data: FavoriteNews.Fetch.ViewModel.Favorites, delegate: FavoriteCellDelegate ) {
+    func configureFavorite(data: FavoriteItem ) {
         favTitleLabel.text = data.title
         favDateLabel.text = data.publishedAt
         favDateLabel.text = Date.formattedDateFromString(dateString: data.publishedAt ?? "")
@@ -64,10 +63,8 @@ class FavoriteCell: UITableViewCell {
             favImageView.sd_setImage(with: URL(string: image ))
 
         } else {
-            let defaultImage = UIImage(named: "us.news")
+            let defaultImage = UIImage(named: "default_news")
             favImageView.image = defaultImage
         }
-
-        self.delegate = delegate
-     }
+    }
 }
