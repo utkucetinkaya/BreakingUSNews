@@ -16,6 +16,7 @@ import UIKit
 protocol NewsRoutingLogic: AnyObject {
     
     func routeToNewsDetail(index: Int)
+    func routeToFavoriteList()
 }
 
 protocol NewsDataPassing: AnyObject{
@@ -23,6 +24,7 @@ protocol NewsDataPassing: AnyObject{
 }
 
 final class NewsListRouter: NewsRoutingLogic, NewsDataPassing {
+    
     
     weak var viewController: NewsListViewController?
     var dataStore: NewsListDataStore?
@@ -33,6 +35,13 @@ final class NewsListRouter: NewsRoutingLogic, NewsDataPassing {
         let destVC: NewsDetailViewController = storyBoard.instantiateViewController(identifier: "NewsDetailViewController")
         destVC.router?.dataStore?.articles = (dataStore?.newsList![index])
         destVC.isComingFav = false
+        destVC.modalPresentationStyle = .fullScreen
+        viewController?.navigationController?.pushViewController(destVC, animated: true)
+    }
+    
+    func routeToFavoriteList() {
+        let storyBoard = UIStoryboard(name: "FavoriteList", bundle: nil)
+        let destVC: NewsFavoriteListViewController = storyBoard.instantiateViewController(identifier: "FavoriteList")
         destVC.modalPresentationStyle = .fullScreen
         viewController?.navigationController?.pushViewController(destVC, animated: true)
     }

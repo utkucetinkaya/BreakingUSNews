@@ -7,7 +7,6 @@
 
 import Foundation
 import UIKit
-import ToastPresenter
 
 extension NewsListViewController: UITableViewDelegate, UITableViewDataSource {
 
@@ -42,48 +41,11 @@ extension NewsListViewController: UITableViewDelegate, UITableViewDataSource {
         }
         cell.configure(viewModel: model, delegate: self)
         cell.articles = model
-        return cell
-        }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        300
-    }
-    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        let rotationTransform = CATransform3DTranslate(CATransform3DIdentity, 0, 100, 0)
-                cell.layer.transform = rotationTransform
-                cell.alpha = 0.2
-                
-                UIView.animate(withDuration: 0.75) {
-                    cell.layer.transform = CATransform3DIdentity
-                    cell.alpha = 1.0
-        }
-    }
-}
-
-extension NewsListViewController: NewsCellDelegate {
-
-    func didTapFavoriteButton(model: NewsList.Fetch.ViewModel.News?) {
         
-        if let article = model {
-            CoreDataManager.shared.favoriteNewsList(model: article) { result in
-                switch result {
-                case.success():
-                    NotificationCenter.default.post(name: NSNotification.Name("Added to Favorite List" ), object: nil)
-                    print("success")
-                    
-                case.failure(let error):
-                    print(error.localizedDescription)
-                }
-            }
+        return cell
+    }
+
+        func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+            300
         }
     }
-    
-    func toastMessage() {
-        ToastView(message: "Saved to favorites!", font: .preferredFont(forTextStyle: .callout))
-            .setImage(UIImage(named: "tick"))
-            .setTextColor(.black)
-            .setBackgroundColor(.systemGreen, alpha: 0.5)
-            .show(in: view, position: .top(constant: 10), holdingTime: 2, fadeAnimationDuration: 1)
-    }
-}
-

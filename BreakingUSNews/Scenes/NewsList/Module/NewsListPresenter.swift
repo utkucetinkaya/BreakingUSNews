@@ -31,7 +31,8 @@ class NewsListPresenter: SendDataPresenting {
                                                           publishedAt: $0.publishedAt,
                                                           name: $0.source?.name,
                                                           content: $0.content,
-                                                          description: $0.articleDescription))
+                                                          description: $0.articleDescription,
+                                                          url: $0.url))
         }
         viewController?.getNewsData(viewModel: NewsList.Fetch.ViewModel(articles: articles))
     }
