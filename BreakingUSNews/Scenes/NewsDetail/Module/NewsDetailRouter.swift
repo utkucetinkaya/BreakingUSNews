@@ -16,7 +16,7 @@ import UIKit
 protocol NewsDetailRoutingLogic: AnyObject {
     
     func routeToFavoriteNews()
-    
+    func routeToWebKit()
 }
  
 protocol NewsDetailDataPassing {
@@ -24,7 +24,7 @@ protocol NewsDetailDataPassing {
 }
 
 final class NewsDetailRouter: NewsDetailRoutingLogic, NewsDetailDataPassing {
-
+    
     weak var viewController: NewsDetailViewController?
     var dataStore: NewsDetailDataStore?
     
@@ -34,6 +34,16 @@ final class NewsDetailRouter: NewsDetailRoutingLogic, NewsDetailDataPassing {
         let destVC: NewsFavoriteListViewController = storyBoard.instantiateViewController(identifier: "FavoriteList")
         destVC.modalPresentationStyle = .fullScreen
         viewController?.navigationController?.pushViewController(destVC, animated: true)
+    }
+    
+    func routeToWebKit() {
+
+        guard let url = URL(string: dataStore?.articles?.url ?? "") else {
+            return
+        }
+        let vc = WebViewController()
+        vc.webView.load(URLRequest(url: url))
+        viewController?.navigationController?.pushViewController(vc, animated: true)
     }
 }
 
