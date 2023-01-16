@@ -18,13 +18,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore your favorite news in BreakingUSNews" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otZ-O6-TGc">
-                                <rect key="frame" x="10" y="47" width="360" height="18"/>
+                                <rect key="frame" x="10" y="47" width="322" height="22"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="15"/>
                                 <color key="textColor" systemColor="systemGray3Color"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="oRx-o4-TLc">
-                                <rect key="frame" x="0.0" y="85" width="390" height="725"/>
+                                <rect key="frame" x="0.0" y="89" width="390" height="721"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="RuE-ct-Cs2">
@@ -37,15 +37,30 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ul-wB-2ru" customClass="ZFRippleButton" customModule="BreakingUSNews" customModuleProvider="target">
+                                <rect key="frame" x="342" y="47" width="39" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="39" id="AZa-BT-i4A"/>
+                                    <constraint firstAttribute="height" constant="27" id="G2O-jm-aVK"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button" image="homepage"/>
+                                <connections>
+                                    <action selector="didTapRouteToNewsList:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="MEI-z6-ZEG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="oRx-o4-TLc" firstAttribute="top" secondItem="otZ-O6-TGc" secondAttribute="bottom" constant="20" id="4O6-Ow-3Rs"/>
+                            <constraint firstItem="8Ul-wB-2ru" firstAttribute="leading" secondItem="otZ-O6-TGc" secondAttribute="trailing" constant="10" id="IiG-0I-xkI"/>
+                            <constraint firstItem="oRx-o4-TLc" firstAttribute="top" secondItem="8Ul-wB-2ru" secondAttribute="bottom" constant="15" id="Ucs-L2-bVf"/>
                             <constraint firstItem="oRx-o4-TLc" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="bWH-j0-TyO"/>
+                            <constraint firstItem="8Ul-wB-2ru" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="dZJ-Ba-6Tm"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="oRx-o4-TLc" secondAttribute="bottom" id="oIV-eU-7gA"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="8Ul-wB-2ru" secondAttribute="trailing" constant="9" id="pPN-Tu-hJ7"/>
                             <constraint firstItem="otZ-O6-TGc" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="rJL-hY-tqJ"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="otZ-O6-TGc" secondAttribute="trailing" constant="20" id="w1J-KI-cam"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="oRx-o4-TLc" secondAttribute="trailing" id="xXv-tW-a4s"/>
                             <constraint firstItem="otZ-O6-TGc" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="yA8-Jz-bKY"/>
                         </constraints>
@@ -56,10 +71,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140" y="-2"/>
+            <point key="canvasLocation" x="140" y="-2.1327014218009479"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="8Ul-wB-2ru">
+            <size key="intrinsicContentSize" width="566" height="512"/>
+        </designable>
+    </designables>
     <resources>
+        <image name="homepage" width="512" height="512"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

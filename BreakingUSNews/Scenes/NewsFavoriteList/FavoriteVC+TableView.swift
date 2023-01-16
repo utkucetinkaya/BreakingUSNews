@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import CoreData
 
 extension NewsFavoriteListViewController: UITableViewDelegate, UITableViewDataSource {
     
@@ -37,18 +38,35 @@ extension NewsFavoriteListViewController: UITableViewDelegate, UITableViewDataSo
         guard let model = viewModel?.favorites[indexPath.row] else {
             return UITableViewCell()
         }
-        
-        cell.configureFavorite(data: model, delegate: self)
+        cell.selection = {
+            self.showMiracle(indexPath: indexPath, model: model)
+        }
+        cell.configureFavorite(data: model)
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        router?.routeToDetailNews(index: indexPath.row)
-
+        router?.routeToFavoriteDetail(index: indexPath.row)
     }
-    @objc func showMiracle() {
+
+    @objc func showMiracle(indexPath: IndexPath, model: FavoriteItem) {
         let slideVC = OverlayView()
+        slideVC.selection = {
+            self.viewModel?.favorites.remove(at: indexPath.row)
+            self.favoriteTableView.reloadData()
+            CoreDataManager.shared.deleteFavorites(model: model) { result in
+                switch result {
+                case.success():
+                    print("deleted from the database")
+                    self.dismiss(animated: false)
+                    self.interactor?.fetchFavorites(request: FavoriteNews.Fetch.Request.init())
+
+                case.failure(let error):
+                    print(error.localizedDescription)
+                }
+            }
+        }
         slideVC.modalPresentationStyle = .custom
         slideVC.transitioningDelegate = self
         self.present(slideVC, animated: true, completion: nil)
@@ -60,23 +78,3 @@ extension NewsFavoriteListViewController: UIViewControllerTransitioningDelegate 
         PresentationController(presentedViewController: presented, presenting: presenting)
     }
 }
-
-extension NewsFavoriteListViewController: FavoriteCellDelegate {
-    func overlayViewOpen() {
-        showMiracle()
-    }
-    
-    
-    func didTapDeleteButton(model: FavoriteNews.Fetch.ViewModel.Favorites?) {
-        
-//        CoreDataManager.shared.deleteFavorites(model: viewModel?.favorites) { result in
-//            switch result {
-//            case.success():
-//                print("deleted from the database")
-//            case.failure(let error):
-//                print(error.localizedDescription)
-//            }
-//        }
-    }
-}
-
