@@ -2,9 +2,9 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -18,25 +18,26 @@
             <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="breakingnews" translatesAutoresizingMaskIntoConstraints="NO" id="PgM-6m-aV8">
-                    <rect key="frame" x="0.0" y="47" width="390" height="763"/>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="qEU-QR-gJj">
+                    <rect key="frame" x="0.0" y="20" width="390" height="210"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="210" id="JLH-wv-HpY"/>
+                        <constraint firstAttribute="width" constant="390" id="gQe-hw-BUs"/>
+                    </constraints>
                 </imageView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <color key="backgroundColor" red="0.1448887885" green="0.15266692640000001" blue="0.1490206718" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="PgM-6m-aV8" secondAttribute="trailing" id="Ilv-KZ-G72"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="PgM-6m-aV8" secondAttribute="bottom" id="Qfp-PO-UR2"/>
-                <constraint firstItem="PgM-6m-aV8" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="sn1-S5-eIZ"/>
-                <constraint firstItem="PgM-6m-aV8" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="trV-kz-mc5"/>
+                <constraint firstItem="qEU-QR-gJj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="EHy-pk-0Rh"/>
+                <constraint firstItem="qEU-QR-gJj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="Nqg-r3-KST"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="qEU-QR-gJj" secondAttribute="trailing" id="fTh-Pd-dnP"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="qEU-QR-gJj" secondAttribute="bottom" constant="580" id="jOx-di-rGh"/>
             </constraints>
-            <point key="canvasLocation" x="112" y="21"/>
+            <point key="canvasLocation" x="110.76923076923076" y="20.616113744075829"/>
         </view>
     </objects>
     <resources>
-        <image name="breakingnews" width="930" height="462"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="logo" width="800" height="800"/>
     </resources>
 </document>
