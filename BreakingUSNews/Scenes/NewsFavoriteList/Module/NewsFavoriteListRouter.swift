@@ -13,7 +13,8 @@
 import UIKit
 
  protocol NewsFavoriteListRoutingLogic {
-     func routeToDetailNews(index: Int)
+     func routeToFavoriteDetail(index: Int)
+     func routeToNewsList()
 }
 
 protocol NewsFavoriteListDataPassing {
@@ -21,18 +22,26 @@ protocol NewsFavoriteListDataPassing {
     }
     
 class NewsFavoriteListRouter: NewsFavoriteListRoutingLogic, NewsFavoriteListDataPassing  {
-   
+    
         weak var viewController: NewsFavoriteListViewController?
           var dataStore: FavoriteListDataStore?
     
-    func routeToDetailNews(index: Int) {
+    func routeToFavoriteDetail(index: Int) {
 
-        let storyBorad = UIStoryboard(name: "NewsDetail", bundle: nil)
-        let destVC: NewsDetailViewController = storyBorad.instantiateViewController(withIdentifier: "NewsDetailViewController") as! NewsDetailViewController
-        destVC.router?.dataStore?.favorites = dataStore?.favorites?[index]
-        destVC.isComingFav = true
+        let storyBorad = UIStoryboard(name: "FavoriteDetail", bundle: nil)
+        let destVC: FavoriteDetailViewController = storyBorad.instantiateViewController(withIdentifier: "FavoriteDetail") as! FavoriteDetailViewController
+        destVC.router?.dataStore?.favoriteItem = dataStore?.favorites?[index]
+        
         destVC.modalPresentationStyle = .fullScreen
         viewController?.navigationController?.pushViewController((destVC), animated: true)
+    }
+    
+    func routeToNewsList() {
 
+        let storyBoard = UIStoryboard(name: "NewsList", bundle: nil)
+        let destVC: NewsListViewController = storyBoard.instantiateViewController(identifier: "NewsList")
+        destVC.modalPresentationStyle = .fullScreen
+       
+        viewController?.navigationController?.setViewControllers([destVC], animated: true)
     }
 }

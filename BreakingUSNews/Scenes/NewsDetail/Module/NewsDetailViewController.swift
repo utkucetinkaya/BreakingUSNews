@@ -69,42 +69,17 @@ class NewsDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if isComingFav == true {
-            self.favorites = router?.dataStore?.favorites
-            self.setFavoriteDetail()
-        } else {
-            interactor?.fetchNews()
-        }
+    
+        interactor?.fetchNews()
     }
     
     @IBAction func webKitButtonClicked(_ sender: Any) {
-        guard let url = URL(string: viewModel?.url ?? "") else {
-            return
-        }
-        let vc = WebViewController()
-        vc.webView.load(URLRequest(url: url))
-        navigationController?.pushViewController(vc, animated: true)
+        router?.routeToWebKit()
     }
     
     @IBAction func didTapFavoriteListButton(_ sender: UIButton) {
         router?.routeToFavoriteNews()
         
-    }
-    
-    func setFavoriteDetail() {
-        sourceNameLabel?.text = self.favorites?.name
-        titleLabel.text = self.favorites?.title
-        descLabel.text = self.favorites?.description
-        contentLabel.text = self.favorites?.content
-        //
-        if let image = favorites?.urlToImage {
-            let urlString = image.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
-            self.imageDetail.sd_setImage(with: URL(string: urlString ?? ""))
-        } else {
-            let defaultImage = UIImage(named: "us.news")
-            imageDetail.image = defaultImage
-            
-        }
     }
 }
     
@@ -120,10 +95,8 @@ class NewsDetailViewController: UIViewController {
                 imageDetail.sd_setImage(with: URL(string: image ))
 
             } else {
-                let defaultImage = UIImage(named: "us.news")
+                let defaultImage = UIImage(named: "default_news")
                 imageDetail.image = defaultImage
             }
         }
     }
-
-
