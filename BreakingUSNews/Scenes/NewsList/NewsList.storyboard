@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--News List View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="NewsList" id="Y6W-OH-hqX" customClass="NewsListViewController" customModule="BreakingUSNews" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of favorite news: 10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DiP-l8-j1g">
+                                <rect key="frame" x="55" y="51" width="339" height="19"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Bold" family="Avenir Next Condensed" pointSize="15"/>
+                                <color key="textColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YnV-Na-EIv">
+                                <rect key="frame" x="20" y="48" width="27" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="OHb-a0-OS0"/>
+                                    <constraint firstAttribute="width" constant="27" id="yMM-L5-6Ny"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="heart_filled"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" red="0.4756349325" green="0.47564673419999998" blue="0.47564041610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="didTapFavoriteListButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="FeD-Pf-agV"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="iwL-4n-8JV">
+                                <rect key="frame" x="0.0" y="75" width="414" height="787"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="DiP-l8-j1g" secondAttribute="trailing" constant="20" id="0JY-6f-Yhb"/>
+                            <constraint firstItem="YnV-Na-EIv" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="1Uq-1d-Bn4"/>
+                            <constraint firstItem="iwL-4n-8JV" firstAttribute="top" secondItem="YnV-Na-EIv" secondAttribute="bottom" constant="2" id="7B2-mk-vRe"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="iwL-4n-8JV" secondAttribute="bottom" id="JOr-a8-KeV"/>
+                            <constraint firstItem="YnV-Na-EIv" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="XUz-Yn-nB7"/>
+                            <constraint firstItem="DiP-l8-j1g" firstAttribute="leading" secondItem="YnV-Na-EIv" secondAttribute="trailing" constant="8" id="bxc-Td-tdy"/>
+                            <constraint firstItem="iwL-4n-8JV" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="dS7-8o-1lT"/>
+                            <constraint firstItem="DiP-l8-j1g" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="3" id="naC-oX-V0U"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="iwL-4n-8JV" secondAttribute="trailing" id="sPO-jt-Ens"/>
+                            <constraint firstItem="iwL-4n-8JV" firstAttribute="top" secondItem="DiP-l8-j1g" secondAttribute="bottom" constant="5" id="w7F-wB-yrH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="newsCountLabel" destination="DiP-l8-j1g" id="iyQ-ne-X1m"/>
+                        <outlet property="tableView" destination="iwL-4n-8JV" id="eUN-Ah-nHu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="69.565217391304358" y="-2.0089285714285712"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="heart_filled" width="90" height="90"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
