@@ -68,18 +68,19 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (7.10.0):
     - GoogleUtilities/Logger
+  - lottie-ios (3.5.0)
   - nanopb (2.30909.0):
     - nanopb/decode (= 2.30909.0)
     - nanopb/encode (= 2.30909.0)
   - nanopb/decode (2.30909.0)
   - nanopb/encode (2.30909.0)
   - PromisesObjC (2.1.1)
-  - RxCocoa (5.1.1):
-    - RxRelay (~> 5)
-    - RxSwift (~> 5)
-  - RxRelay (5.1.3):
-    - RxSwift (~> 5)
-  - RxSwift (5.1.3)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
   - SDWebImage (5.14.1):
     - SDWebImage/Core (= 5.14.1)
   - SDWebImage/Core (5.14.1)
@@ -88,7 +89,8 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - FirebaseAnalytics
-  - RxCocoa (= 5.1.1)
+  - lottie-ios
+  - RxCocoa (= 6.5.0)
   - SDWebImage (~> 5.0)
   - ToastPresenter
 
@@ -101,6 +103,7 @@ SPEC REPOS:
     - FirebaseInstallations
     - GoogleAppMeasurement
     - GoogleUtilities
+    - lottie-ios
     - nanopb
     - PromisesObjC
     - RxCocoa
@@ -117,14 +120,15 @@ SPEC CHECKSUMS:
   FirebaseInstallations: 004915af170935e3a583faefd5f8bc851afc220f
   GoogleAppMeasurement: 3bc3a6484b7bb20dd8489242c4dd3c92a3e5107b
   GoogleUtilities: bad72cb363809015b1f7f19beb1f1cd23c589f95
+  lottie-ios: c55158d67d0629a260625cc2ded2052b829e3c3e
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
-  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
-  RxRelay: 5a18c2eb2d68326ebaf0112f80d837ae41b92b97
-  RxSwift: 915abbdfb62214aa89ccd0b194d44fb478019b27
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SDWebImage: e1b3c38f170c6100130fce6856e423ed9e5f4fce
   ToastPresenter: c48a0e9073e73554e2a9869d2e697345cf06c0f4
 
-PODFILE CHECKSUM: c921ce9fdb04e83943078b407646db5e77e08455
+PODFILE CHECKSUM: 187ab6710ff6bc2aa77a7ed0db32cf6afe9583c5
 
 COCOAPODS: 1.11.3

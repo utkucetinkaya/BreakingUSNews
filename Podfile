@@ -11,7 +11,7 @@ pod 'SDWebImage', '~> 5.0'
 pod 'RxCocoa', '6.5.0'
 pod 'FirebaseAnalytics'
 pod 'ToastPresenter'
-
+pod 'lottie-ios'
 
   target 'BreakingUSNewsTests' do
     inherit! :search_paths
