@@ -240,6 +240,33 @@
 			path = Module;
 			sourceTree = "<group>";
 		};
+		B82E9EA529757C790008EABF /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B80E8CD02930DB9E000E1ACD /* FavoriteModel.xcdatamodeld */,
+				B8AFA47E2930CE52009A422D /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		B82E9EA629757CF30008EABF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B82E9EA729757D020008EABF /* Storyboards */,
+				B8BD7E4C29203A29007C748A /* Assets.xcassets */,
+				B820D72A296F7C470017D95F /* onboarding.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B82E9EA729757D020008EABF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B8BD7E4E29203A29007C748A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		B8328CEF292D872E007EB403 /* NewsFavoriteList */ = {
 			isa = PBXGroup;
 			children = (
@@ -330,15 +357,13 @@
 		B8BD7E4229203A27007C748A /* BreakingUSNews */ = {
 			isa = PBXGroup;
 			children = (
+				B8DB9F75292054B4008C895A /* Network */,
+				B82E9EA529757C790008EABF /* CoreData */,
+				B8BD7E7429203E0A007C748A /* Scenes */,
+				B82E9EA629757CF30008EABF /* Resources */,
 				B800B81829227DA400B8E97C /* Style+Extensions */,
 				B8DB9F85292107DC008C895A /* Request&ResponseModels */,
-				B8DB9F75292054B4008C895A /* Network */,
-				B8BD7E7429203E0A007C748A /* Scenes */,
 				B8BD7E4329203A27007C748A /* AppDelegate.swift */,
-				B8BD7E4C29203A29007C748A /* Assets.xcassets */,
-				B820D72A296F7C470017D95F /* onboarding.json */,
-				B80E8CD02930DB9E000E1ACD /* FavoriteModel.xcdatamodeld */,
-				B8BD7E4E29203A29007C748A /* LaunchScreen.storyboard */,
 				B8BD7E5129203A29007C748A /* Info.plist */,
 				B84FBB89293FE98E004AFEEB /* GoogleService-Info.plist */,
 			);
@@ -398,7 +423,6 @@
 			isa = PBXGroup;
 			children = (
 				B8DB9F8829212282008C895A /* Requester.swift */,
-				B8AFA47E2930CE52009A422D /* CoreDataManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";

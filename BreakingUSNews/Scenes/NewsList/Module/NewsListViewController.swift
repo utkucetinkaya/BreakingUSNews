@@ -58,15 +58,13 @@ class NewsListViewController: UIViewController {
     // MARK: - LifeCycle
     override func viewDidLoad() {
       super.viewDidLoad()
-        
-        interactor?.fetchNews(request: NewsList.Fetch.Request.init())
         configView()
-        observeFavoriteCount()
     }
     override func viewWillAppear(_ animated: Bool) {
-        
-//        tableView.reloadData()
+        interactor?.fetchNews(request: NewsList.Fetch.Request.init())
+        observeFavoriteCount()
     }
+    
     @IBAction func didTapFavoriteListButton(_ sender: Any) {
         router?.routeToFavoriteList()
     }
