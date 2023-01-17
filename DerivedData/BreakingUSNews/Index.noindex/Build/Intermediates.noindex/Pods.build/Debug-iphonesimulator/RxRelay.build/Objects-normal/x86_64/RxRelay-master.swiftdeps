@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "6e2efb0ce54f222261d8a9388e48090f99cdcf44121630c0a534d4cadc7b3cfd"
+build_start_time: [1673427187, 344691038]
+build_end_time: [1673427188, 111951828]
+inputs:
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxRelay/RxRelay/BehaviorRelay.swift": [1673426363, 114995956]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxRelay/RxRelay/Observable+Bind.swift": [1673426363, 112889766]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxRelay/RxRelay/PublishRelay.swift": [1673426363, 111899852]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxRelay/RxRelay/ReplayRelay.swift": [1673426363, 112385511]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxRelay/RxRelay/Utils.swift": [1673426363, 113541126]

@@ -1,0 +1,27 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "bbff991e1eba65c6c9b7e9d2dd4642feb9a5ac25648a1151080d853a60bcc9e0"
+build_start_time: [1673427165, 265413045]
+build_end_time: [1673427185, 952113151]
+inputs:
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/Heartbeat.swift"
+  : [1673426362, 621974468]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatController.swift"
+  : [1673426362, 624053716]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatStorage.swift"
+  : [1673426362, 625154018]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatsBundle.swift"
+  : [1673426362, 625653743]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/HeartbeatsPayload.swift"
+  : [1673426362, 626677036]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/RingBuffer.swift"
+  : [1673426362, 622903347]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/Storage.swift"
+  : [1673426362, 618896961]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/StorageFactory.swift"
+  : [1673426362, 627158641]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/WeakContainer.swift"
+  : [1673426362, 626192569]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/_ObjC_HeartbeatController.swift"
+  : [1673426362, 623528480]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/FirebaseCoreInternal/FirebaseCore/Internal/Sources/HeartbeatLogging/_ObjC_HeartbeatsPayload.swift"
+  : [1673426362, 624618530]

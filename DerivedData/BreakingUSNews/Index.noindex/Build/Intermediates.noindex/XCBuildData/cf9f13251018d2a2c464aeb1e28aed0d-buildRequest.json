@@ -1,0 +1,112 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "183993b93029c720bb5ffad91f9c7181f605e91b8983eca7e032d89803e49282"
+    },
+    {
+      "guid" : "183993b93029c720bb5ffad91f9c7181ef2063519004ecee73e31b37ebeb72c1"
+    },
+    {
+      "guid" : "183993b93029c720bb5ffad91f9c7181b0d27154603da39e613fca392890a9b4"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd427bd026cc68b394ffec63646a3807b8e8"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42fa2e43183734e48231e71168c0841a74"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd427ced8471d4c88331d43a37401d2f6673"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42020791fd2e7b7ddc8fb2658339c42e16"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42f10882e1684b8a3dfdec597bc0a47af3"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42c46180aea4e87057640961e6db37df0d"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd428a3f5d209354279fe92d56a85650a781"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42a408a4c1f668e62161cdeba76f57d50c"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd424f96f1021f5250ab30d486e660411efe"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42b45a976e1a7989b1f53362bcdeeb29d3"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd420daa2e2cd26ad5ca345c3044f7db418b"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42566ec9a1d71c4629f4f85ecb735ce614"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42718890dfdac589615663a02d43d9af3e"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd420062393f91a1d2d94e3e5ed3a5aa5da9"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4291ffb250f3b44ffb9b452226d52e9fa9"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42ba3679b4c4428e6a6d83c5308d3af99b"
+    }
+  ],
+  "containerPath" : "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/BreakingUSNews.xcworkspace",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.0",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/DerivedData/BreakingUSNews/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/DerivedData/BreakingUSNews/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/DerivedData/BreakingUSNews/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/DerivedData/BreakingUSNews/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/DerivedData/BreakingUSNews/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/DerivedData/BreakingUSNews/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

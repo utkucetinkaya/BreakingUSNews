@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>31D9A025-EC6A-42F5-A7E3-F433F0F97C82</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>31D9A025-EC6A-42F5-A7E3-F433F0F97C82.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BreakingUSNews project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BreakingUSNews</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BreakingUSNews</string>
+			<key>timeStartedRecording</key>
+			<real>695119527.64401996</real>
+			<key>timeStoppedRecording</key>
+			<real>695119531.74819696</real>
+			<key>title</key>
+			<string>Build BreakingUSNews</string>
+			<key>uniqueIdentifier</key>
+			<string>31D9A025-EC6A-42F5-A7E3-F433F0F97C82</string>
+		</dict>
+		<key>41E8CB5F-28CB-47BC-93C8-35FA5086ECD6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>41E8CB5F-28CB-47BC-93C8-35FA5086ECD6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BreakingUSNews project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BreakingUSNews</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BreakingUSNews</string>
+			<key>timeStartedRecording</key>
+			<real>695119880.52239001</real>
+			<key>timeStoppedRecording</key>
+			<real>695119962.27885199</real>
+			<key>title</key>
+			<string>Build BreakingUSNews</string>
+			<key>uniqueIdentifier</key>
+			<string>41E8CB5F-28CB-47BC-93C8-35FA5086ECD6</string>
+		</dict>
+		<key>E6BE9EBB-4D9E-4E2C-AD27-82D70848D6C3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E6BE9EBB-4D9E-4E2C-AD27-82D70848D6C3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BreakingUSNews project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BreakingUSNews</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BreakingUSNews</string>
+			<key>timeStartedRecording</key>
+			<real>695119005.47581995</real>
+			<key>timeStoppedRecording</key>
+			<real>695119008.22878802</real>
+			<key>title</key>
+			<string>Build BreakingUSNews</string>
+			<key>uniqueIdentifier</key>
+			<string>E6BE9EBB-4D9E-4E2C-AD27-82D70848D6C3</string>
+		</dict>
+		<key>F4B3DFCC-6446-4292-8FF3-9E94A2A188DA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F4B3DFCC-6446-4292-8FF3-9E94A2A188DA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BreakingUSNews project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BreakingUSNews</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build BreakingUSNews</string>
+			<key>timeStartedRecording</key>
+			<real>695119411.50746799</real>
+			<key>timeStoppedRecording</key>
+			<real>695119477.82808399</real>
+			<key>title</key>
+			<string>Build BreakingUSNews</string>
+			<key>uniqueIdentifier</key>
+			<string>F4B3DFCC-6446-4292-8FF3-9E94A2A188DA</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

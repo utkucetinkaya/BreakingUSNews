@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "ce8e5e16c9bb887c1010de57ea29072f67673884d4bc962b02c24ed231343a03"
+build_start_time: [1673427206, 636365890]
+build_end_time: [1673427230, 529857158]
+inputs:
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/BreakingUSNewsTests/BreakingUSNewsTests.swift"
+  : [1668285097, 744838476]

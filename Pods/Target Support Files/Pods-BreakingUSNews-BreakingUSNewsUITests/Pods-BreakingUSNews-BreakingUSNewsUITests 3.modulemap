@@ -1,0 +1,6 @@
+framework module Pods_BreakingUSNews_BreakingUSNewsUITests {
+  umbrella header "Pods-BreakingUSNews-BreakingUSNewsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

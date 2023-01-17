@@ -1,0 +1,63 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "183993b93029c720bb5ffad91f9c7181f605e91b8983eca7e032d89803e49282"
+    }
+  ],
+  "containerPath" : "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/BreakingUSNews.xcworkspace",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.0",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/DerivedData/BreakingUSNews/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/DerivedData/BreakingUSNews/Build/Products",
+      "derivedDataPath" : "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/DerivedData/BreakingUSNews/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/DerivedData/BreakingUSNews/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/DerivedData/BreakingUSNews/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone12,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "16.0",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone12,1",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "47F7B502-E11A-4E24-A1A8-4E032B8D65A1",
+          "TARGET_DEVICE_MODEL" : "iPhone12,1",
+          "TARGET_DEVICE_OS_VERSION" : "16.0",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

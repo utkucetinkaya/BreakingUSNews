@@ -1,0 +1,304 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "734f5124a5a1374d97955cc12ebd46d565acb06f8b8c329e84f104ae80ecc3f2"
+build_start_time: [1673427157, 483504056]
+build_end_time: [1673427162, 223720073]
+inputs:
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/Platform/AtomicInt.swift": !private [1673426363, 260059118]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/Platform/DataStructures/Bag.swift"
+  : !private [1673426363, 260914802]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/Platform/DataStructures/InfiniteSequence.swift"
+  : !private [1673426363, 262473106]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/Platform/DataStructures/PriorityQueue.swift"
+  : !private [1673426363, 261371135]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/Platform/DataStructures/Queue.swift"
+  : !private [1673426363, 261814594]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/Platform/DispatchQueue+Extensions.swift"
+  : !private [1673426363, 259368419]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/Platform/Platform.Darwin.swift"
+  : !private [1673426363, 258994579]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/Platform/Platform.Linux.swift": !private [1673426363, 263097047]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/Platform/RecursiveLock.swift": !private [1673426363, 263584136]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/AnyObserver.swift": !private [1673426363, 157777309]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Binder.swift": !private [1673426363, 228119373]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Cancelable.swift": !private [1673426363, 135710239]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Concurrency/AsyncLock.swift"
+  : !private [1673426363, 234009742]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Concurrency/Lock.swift"
+  : !private [1673426363, 233454227]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Concurrency/LockOwnerType.swift"
+  : !private [1673426363, 231980800]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Concurrency/SynchronizedDisposeType.swift"
+  : !private [1673426363, 232450008]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Concurrency/SynchronizedOnType.swift"
+  : !private [1673426363, 233010768]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Concurrency/SynchronizedUnsubscribeType.swift"
+  : !private [1673426363, 235228300]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/ConnectableObservableType.swift"
+  : !private [1673426363, 243449926]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Date+Dispatch.swift": !private [1673426363, 236644983]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Disposable.swift": !private [1673426363, 228486061]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Disposables/AnonymousDisposable.swift"
+  : !private [1673426363, 168371200]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Disposables/BinaryDisposable.swift"
+  : !private [1673426363, 166130304]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Disposables/BooleanDisposable.swift"
+  : !private [1673426363, 168981075]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Disposables/CompositeDisposable.swift"
+  : !private [1673426363, 164513111]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Disposables/Disposables.swift"
+  : !private [1673426363, 169498682]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Disposables/DisposeBag.swift"
+  : !private [1673426363, 160375118]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Disposables/DisposeBase.swift"
+  : !private [1673426363, 159129619]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Disposables/NopDisposable.swift"
+  : !private [1673426363, 162412166]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Disposables/RefCountDisposable.swift"
+  : !private [1673426363, 163816690]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Disposables/ScheduledDisposable.swift"
+  : !private [1673426363, 161217212]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Disposables/SerialDisposable.swift"
+  : !private [1673426363, 165509700]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Disposables/SingleAssignmentDisposable.swift"
+  : !private [1673426363, 165026426]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Disposables/SubscriptionDisposable.swift"
+  : !private [1673426363, 163028717]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Errors.swift": !private [1673426363, 244626522]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Event.swift": !private [1673426363, 137658596]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Extensions/Bag+Rx.swift"
+  : !private [1673426363, 230511665]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/GroupedObservable.swift"
+  : !private [1673426363, 136356115]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/ImmediateSchedulerType.swift"
+  : !private [1673426363, 258060455]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observable+Concurrency.swift"
+  : !private [1673426363, 138245105]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observable.swift": !private [1673426363, 242359638]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/ObservableConvertibleType.swift"
+  : !private [1673426363, 241927146]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/ObservableType+Extensions.swift"
+  : !private [1673426363, 229682207]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/ObservableType.swift": !private [1673426363, 244107007]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/AddRef.swift"
+  : !private [1673426363, 194666862]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Amb.swift": !private [1673426363, 212696552]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/AsMaybe.swift"
+  : !private [1673426363, 172548294]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/AsSingle.swift"
+  : !private [1673426363, 190135002]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Buffer.swift"
+  : !private [1673426363, 176656246]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Catch.swift"
+  : !private [1673426363, 211530208]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/CombineLatest+Collection.swift"
+  : !private [1673426363, 199373960]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/CombineLatest+arity.swift"
+  : !private [1673426363, 214045524]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/CombineLatest.swift"
+  : !private [1673426363, 189050197]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/CompactMap.swift"
+  : !private [1673426363, 197739362]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Concat.swift"
+  : !private [1673426363, 184336662]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Create.swift"
+  : !private [1673426363, 225935459]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Debounce.swift"
+  : !private [1673426363, 209238052]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Debug.swift"
+  : !private [1673426363, 215348720]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Decode.swift"
+  : !private [1673426363, 205719947]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/DefaultIfEmpty.swift"
+  : !private [1673426363, 177641868]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Deferred.swift"
+  : !private [1673426363, 176088809]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Delay.swift"
+  : !private [1673426363, 178814411]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/DelaySubscription.swift"
+  : !private [1673426363, 206236600]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Dematerialize.swift"
+  : !private [1673426363, 209969043]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/DistinctUntilChanged.swift"
+  : !private [1673426363, 192055702]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Do.swift": !private [1673426363, 175541877]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/ElementAt.swift"
+  : !private [1673426363, 225439548]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Empty.swift"
+  : !private [1673426363, 190615892]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Enumerated.swift"
+  : !private [1673426363, 191220998]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Error.swift"
+  : !private [1673426363, 188451528]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Filter.swift"
+  : !private [1673426363, 212225914]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/First.swift"
+  : !private [1673426363, 193441390]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Generate.swift"
+  : !private [1673426363, 222160577]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/GroupBy.swift"
+  : !private [1673426363, 183480739]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Just.swift"
+  : !private [1673426363, 220706224]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Map.swift": !private [1673426363, 217859268]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Materialize.swift"
+  : !private [1673426363, 226708889]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Merge.swift"
+  : !private [1673426363, 216400623]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Multicast.swift"
+  : !private [1673426363, 203293085]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Never.swift"
+  : !private [1673426363, 173981666]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/ObserveOn.swift"
+  : !private [1673426363, 198812007]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Optional.swift"
+  : !private [1673426363, 221677780]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Producer.swift"
+  : !private [1673426363, 180525779]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Range.swift"
+  : !private [1673426363, 197118043]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Reduce.swift"
+  : !private [1673426363, 213197946]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Repeat.swift"
+  : !private [1673426363, 206769943]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/RetryWhen.swift"
+  : !private [1673426363, 174952983]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Sample.swift"
+  : !private [1673426363, 189619779]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Scan.swift"
+  : !private [1673426363, 223239183]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Sequence.swift"
+  : !private [1673426363, 195397138]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/ShareReplayScope.swift"
+  : !private [1673426363, 222689628]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/SingleAsync.swift"
+  : !private [1673426363, 227637767]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Sink.swift"
+  : !private [1673426363, 195921182]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Skip.swift"
+  : !private [1673426363, 217229366]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/SkipUntil.swift"
+  : !private [1673426363, 219062566]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/SkipWhile.swift"
+  : !private [1673426363, 205118417]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/StartWith.swift"
+  : !private [1673426363, 220101833]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/SubscribeOn.swift"
+  : !private [1673426363, 177157402]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Switch.swift"
+  : !private [1673426363, 207849025]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/SwitchIfEmpty.swift"
+  : !private [1673426363, 224806308]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Take.swift"
+  : !private [1673426363, 187369346]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/TakeLast.swift"
+  : !private [1673426363, 187930107]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/TakeWithPredicate.swift"
+  : !private [1673426363, 221188545]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Throttle.swift"
+  : !private [1673426363, 196594715]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Timeout.swift"
+  : !private [1673426363, 173343181]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Timer.swift"
+  : !private [1673426363, 194026947]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/ToArray.swift"
+  : !private [1673426363, 207252979]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Using.swift"
+  : !private [1673426363, 178145885]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Window.swift"
+  : !private [1673426363, 208538055]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/WithLatestFrom.swift"
+  : !private [1673426363, 198326349]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/WithUnretained.swift"
+  : !private [1673426363, 185529708]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Zip+Collection.swift"
+  : !private [1673426363, 210900306]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Zip+arity.swift"
+  : !private [1673426363, 224051237]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observables/Zip.swift": !private [1673426363, 214640617]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/ObserverType.swift": !private [1673426363, 230969429]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observers/AnonymousObserver.swift"
+  : !private [1673426363, 247684955]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observers/ObserverBase.swift"
+  : !private [1673426363, 246385812]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Observers/TailRecursiveSink.swift"
+  : !private [1673426363, 246955394]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Reactive.swift": !private [1673426363, 235997200]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Rx.swift": !private [1673426363, 245193481]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/RxMutableBox.swift": !private [1673426363, 137142181]
+  "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/SchedulerType.swift": !private [1673426363, 242754936]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Schedulers/ConcurrentDispatchQueueScheduler.swift"
+  : !private [1673426363, 252218246]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Schedulers/ConcurrentMainScheduler.swift"
+  : !private [1673426363, 255606412]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Schedulers/CurrentThreadScheduler.swift"
+  : !private [1673426363, 250998020]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Schedulers/HistoricalScheduler.swift"
+  : !private [1673426363, 256335735]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Schedulers/HistoricalSchedulerTimeConverter.swift"
+  : !private [1673426363, 257421016]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Schedulers/Internal/DispatchQueueConfiguration.swift"
+  : !private [1673426363, 254795551]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Schedulers/Internal/InvocableScheduledItem.swift"
+  : !private [1673426363, 254413127]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Schedulers/Internal/InvocableType.swift"
+  : !private [1673426363, 254037857]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Schedulers/Internal/ScheduledItem.swift"
+  : !private [1673426363, 253587245]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Schedulers/Internal/ScheduledItemType.swift"
+  : !private [1673426363, 255190849]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Schedulers/MainScheduler.swift"
+  : !private [1673426363, 251636028]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Schedulers/OperationQueueScheduler.swift"
+  : !private [1673426363, 249070644]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Schedulers/RecursiveScheduler.swift"
+  : !private [1673426363, 248449563]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Schedulers/SchedulerServices+Emulation.swift"
+  : !private [1673426363, 250418663]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Schedulers/SerialDispatchQueueScheduler.swift"
+  : !private [1673426363, 255973100]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Schedulers/VirtualTimeConverterType.swift"
+  : !private [1673426363, 256855010]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Schedulers/VirtualTimeScheduler.swift"
+  : !private [1673426363, 249774456]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Subjects/AsyncSubject.swift"
+  : !private [1673426363, 239100694]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Subjects/BehaviorSubject.swift"
+  : !private [1673426363, 238716840]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Subjects/PublishSubject.swift"
+  : !private [1673426363, 241303443]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Subjects/ReplaySubject.swift"
+  : !private [1673426363, 239620208]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Subjects/SubjectType.swift"
+  : !private [1673426363, 238147258]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/SwiftSupport/SwiftSupport.swift"
+  : !private [1673426363, 229305505]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Traits/Infallible/Infallible+CombineLatest+arity.swift"
+  : !private [1673426363, 154593944]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Traits/Infallible/Infallible+Concurrency.swift"
+  : !private [1673426363, 149821043]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Traits/Infallible/Infallible+Create.swift"
+  : !private [1673426363, 151203632]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Traits/Infallible/Infallible+Operators.swift"
+  : !private [1673426363, 153697252]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Traits/Infallible/Infallible+Zip+arity.swift"
+  : !private [1673426363, 149075031]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Traits/Infallible/Infallible.swift"
+  : !private [1673426363, 155691385]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Traits/Infallible/ObservableConvertibleType+Infallible.swift"
+  : !private [1673426363, 157007217]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Traits/PrimitiveSequence/Completable+AndThen.swift"
+  : !private [1673426363, 141121864]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Traits/PrimitiveSequence/Completable.swift"
+  : !private [1673426363, 141901016]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Traits/PrimitiveSequence/Maybe.swift"
+  : !private [1673426363, 145226478]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Traits/PrimitiveSequence/ObservableType+PrimitiveSequence.swift"
+  : !private [1673426363, 145902633]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Traits/PrimitiveSequence/PrimitiveSequence+Concurrency.swift"
+  : !private [1673426363, 147675514]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Traits/PrimitiveSequence/PrimitiveSequence+Zip+arity.swift"
+  : !private [1673426363, 146796703]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Traits/PrimitiveSequence/PrimitiveSequence.swift"
+  : !private [1673426363, 144282817]
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/RxSwift/RxSwift/Traits/PrimitiveSequence/Single.swift"
+  : !private [1673426363, 143434524]

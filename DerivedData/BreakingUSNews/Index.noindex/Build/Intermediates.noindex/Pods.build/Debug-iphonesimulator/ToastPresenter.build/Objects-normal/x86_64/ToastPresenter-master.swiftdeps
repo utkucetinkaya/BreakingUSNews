@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "3b9101a165160d7d3c201c11edfa65ba330a0ffe7504e539a157d45923f0e8b4"
+build_start_time: [1673427164, 112632989]
+build_end_time: [1673427185, 268576145]
+inputs:
+  ? "/Users/utkucetinkaya/Library/Mobile Documents/com~apple~CloudDocs/BiSU/BreakingUSNews/Pods/ToastPresenter/ToastPresenter/Classes/ToastPresenter.swift"
+  : [1673426363, 382300376]

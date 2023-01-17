@@ -1,0 +1,10 @@
+framework module ToastPresenter {
+  umbrella header "ToastPresenter-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ToastPresenter.__Swift {
+  exclude header "ToastPresenter-Swift.h"
+}
