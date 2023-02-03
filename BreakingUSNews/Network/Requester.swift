@@ -23,8 +23,8 @@ protocol ProviderProtocol {
 class Requester: ProviderProtocol {
 
     private lazy var baseUrl = "https://newsapi.org"
-    private lazy var apiKey = "b4bf5e9ea49a49a4807f83438cd8e006"
-
+    private lazy var apiKey = "YOUR_API_KEY"
+    
     func request<T: Decodable>(model: T.Type,
                                parameters: [String: String] = [:],
                                completion: @escaping (NetworkResponse<T>) -> Void) {
