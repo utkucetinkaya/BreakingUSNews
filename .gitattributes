@@ -1,1 +1,6 @@
+*.makefile linguist-detectable=false
 *.swift linguist-detectable=true
+*.objective-c linguist-detectable=false
+*.c++ linguist-detectable=false
+*.c linguist-detectable=false
+*.shell linguist-detectable=false
